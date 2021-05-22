@@ -1,0 +1,128 @@
+*{
+    font: Poppins, sans-serif;
+}
+.nav li{
+    color: black;
+}
+.navbar-toggler {
+    display: inline-block;
+    cursor: pointer;
+    color: black;
+}
+.textbanner{
+    position: absolute;
+    width: 100%;
+    background: #0000003d;
+    height: 100%;
+    top: 0;
+    text-align: center;
+}
+.textbanner h2{
+    font-size: 2.5rem;
+    width: 100%;
+    color: white;
+    transform: translateX(-120%);
+    animation: slide-h 1s forwards;
+    padding-bottom: 1%;
+}
+@media screen and (max-width: 768px){
+.textbanner h2 {
+    display: inline;
+    font-size: 25px;
+    color: white;
+    }
+}
+@keyframes slide-h{
+    60%{transform: translateX(0%);}
+    100%{transform: scale(1.5);}
+}
+span{
+    color: #129eb7;
+}
+.textbanner p,button{
+    color: white;
+    margin-bottom: 1rem;
+}
+.bannerbtn{
+    background-image: repeating-linear-gradient( 90deg, #8934a9, #129eb7);
+    color: white;
+    border: none;
+    padding: 10px 41px;
+    border-radius: 20px 0;
+}
+.carousel-inner img{
+    height: 600px;
+}
+.car-bg{
+    background: #ffc107;
+}
+.car-bg img{
+    left: -200px;
+	transform: translateX(-100%);
+	animation: car 0.8s forwards;
+}
+@keyframes car{
+    100%{ transform: translateX(0%);}
+}
+.phn1{
+    width: 105%;
+    animation: dance 3s infinite;
+}
+@keyframes dance{
+    0% { transform: translate(0,  0px); }
+	50%  { transform: translate(0, 40px); }
+	100%   { transform: translate(0, 0px); } 
+}
+.phn2{
+    animation: dance2 3s infinite;
+    width: 105%;
+}
+@keyframes dance2{
+    0% { transform: translate(0,  40px); }
+	50%  { transform: translate(0, 0px); }
+	100%   { transform: translate(0, 40px); } 
+}
+.textbanner2{
+    
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/slider-ebanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.scndh{
+    color: #129eb7;
+    font-weight: bolder;
+    transform: translateX(-80%);
+    animation: sld 1s forwards;
+}
+@keyframes sld{
+    100%{transform: translateX(0%);}
+}
+.gup{
+    /* transform: translateY(200%); */
+    animation: grl 1s forwards;
+}
+@keyframes grl{
+    0%{transform: translateY(100%);}
+    100%{transform: translateY(0%);}
+}
+.last{
+    background-image: repeating-linear-gradient( 90deg, #8934a9, #129eb7);
+    color: white;
+}
+.last a{
+    color: white;
+}
+.mv p:hover{
+    transform: translate(5px) !important;
+}
+span i {
+    color: white;
+    padding: 10px 15px;
+    background-color: #ffffff30;
+}
+.last img{
+    max-width: 50%;
+    display: inline;
+}
