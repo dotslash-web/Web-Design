@@ -1,0 +1,278 @@
+	*{
+		margin: 0;
+		list-style: none;
+	}
+	.nav{
+		margin-bottom: 10px;
+	}
+	#logo{
+		margin-left: 60px;
+		margin-top: 5px;
+	}
+	.nav li{
+		list-style: none;
+		display: inline;
+		padding-left: 30px;
+		color: #616161;
+	}
+	.nav ul{
+		float:right;
+		text-decoration: none;
+		padding-top: 30px;
+		padding-right: 30px;
+	}
+
+	.nav button, button{
+		margin-left: 20px;
+		background-color: #FF8000;
+		padding: 15px 25px;
+		color: white;
+		border: 0px solid;
+		font-size: 16px;
+		border-radius: 5px;
+		opacity: 1 !important;
+	}
+	.hdng{
+		background: black;
+		width: 100%;
+		margin: 0;
+	}
+	.hdng h1{
+		text-align: center;
+		font-size: 45px;
+		padding: 17px 40px;
+		color: white;
+	}
+	span{
+		color: #FF8000;
+	}
+
+	.nav a{
+		text-decoration:none;
+			color: #616161;
+	}
+	.drop{
+		position:relative;
+	}
+	.drop:hover .dropdown{
+		display:block;
+	}
+	.dropdown{
+		display:none;
+		position:absolute;
+		background-color:black;
+		top:90%;
+		
+	}
+	.dropdown li{
+		display:block;
+		padding: 0px 0px 50px 0px;
+		margin-top: 0px ;
+		color:white;
+	}
+	.dropdown{	
+		margin:0px;
+		padding:0px;
+	}
+	.drop2{
+		position:relative;
+	}
+	.drop2:hover .dropdown2{
+		display: block;
+		
+	}
+	.dropdown2{
+		display: none;
+		position:absolute;
+		background-color:black;
+		left:100%;
+		margin: 0px;
+		padding: 0px;
+	}
+	.container{
+		display: flex;
+		width: 100%;
+		padding-bottom: 20px;
+	}
+	
+	.box{
+	width:33.33%;
+	position:relative;
+	}
+	
+	.box img{
+		width: 100%;
+	}
+	
+	.ab{
+		display: none;
+		position: absolute;
+		top: 0%;
+		width:100%;
+		max-height:99%;
+		text-align: center;
+		background-color: #0000006b;
+		
+	}
+	
+	.box:hover .ab{
+		display:block;
+	}
+	
+	.ab p{
+		font-size:35px;
+		font-weight: 2em;
+		color: white;
+		padding:80px 45px 40px 45px;
+	}
+	.nxto3{
+		padding: 40px;
+	}
+	.nxto3 h1{
+		text-align: center;
+		font-size: 65px;
+		padding-bottom: 40px;
+	}
+	.box2{
+		margin:0px 20px;
+		width: 22%;
+		text-align: center;
+		font-size: 24px;
+		font-weight: bold;
+		line-height: 34px;
+	}
+	.box2 img{
+		width: auto;
+		margin-bottom: 20px;
+	}
+	.blu{
+		background-color: #56c8e2;
+		color: white;
+		display: flex;
+		padding: 50px 40px;
+	}
+	.inblu{
+		width: 50%;
+	}
+	.inblu h1{
+		font-size: 56px;
+		text-align: left;
+		width:47%;
+		
+	}
+	.inblu2{
+		width: 47%;
+		float: right;
+	}
+	.h{
+		font-size: 25px;
+	}
+	.hp{
+		font-size: 20px;
+	}
+	.banner{
+		display: flex;
+	}
+	.banner div{
+		padding-left: 50px;
+		line-height: 220%;
+	}
+	.banner img{
+		height: 95px;
+	}
+	.imgvd{
+		position:relative;
+	}
+	.imghvd{
+		width: 100%;
+	}
+	.vidlogo{
+		position:absolute;
+		top:40%;
+		left:45%;
+	}
+	.thrdlst{
+		padding: 60px;
+		text-align: center;
+		font-size: 25px;
+	}
+	.thrdlst p{
+		padding-top: 20px;
+		color: #FF8000;
+		font-size: 40px;		
+	}
+	.scndlst img{
+		width: 100%;
+	}
+	
+	.container2{
+		display: flex;
+		width: 100%;
+		padding-bottom: 20px;
+	}
+	.radi{
+		border: 1px solid transparent;
+		margin: 10px 30px;
+		width: 32%;
+		text-align: center;
+		padding: 20px 30px;
+	}
+	.radi p{
+		padding: 20px 70px;
+	}
+	.hlst{
+		font-size: 24px;
+	}
+	.scndlst{
+		position: relative;
+		background: url(images/footer-bg.png);
+		background-size: cover;
+		overflow: hidden;
+	}
+	.ovr{
+		
+		color: white;
+	}
+	.last{
+		display: flex;
+		background-color: #171717;
+		color: white;
+		padding: 30px 50px;
+	}
+	.lstbx1{
+		width: 32%;
+		padding-right:140px;
+		padding-left:50px;
+		line-height: 30px;
+	}
+	.lstbx2{
+		width: 32%;
+		padding-right:70px;
+		line-height: 30px;
+	}
+	.lstbx3{
+		width: 32%;
+		padding-right:50px;
+		line-height: 30px;
+	}
+	.lsthd{
+		color: #FF8000;
+	}
+	.radi:hover{
+		border: 1px solid white;
+		border-radius: 20px;
+		background-color: rgba(229, 141, 2, 0.15);
+	}
+	@media only screen and (max-width:768px){
+		.container{display:block;}
+		.box2{width: 100%;}
+		.container2{display: block;}
+		.radi{width:100%; margin: 0px;}
+		.blu{display: block;}
+		.inblu{width: 100%;}
+		.inblu h1{text-align:center; width: 100%;}
+		.inblu2{width: 100%; float: unset;}
+		.last{display:block;}
+		.banner{display:block;}
+		.nav ul{float: none;}
+	}

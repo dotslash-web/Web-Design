@@ -1,0 +1,151 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+body{
+	scroll-behavior: smooth;
+	}
+.mb{
+	background: url(images/banner-art.png);
+	background-size: 100% 100%;
+	min-height: 95vh;
+}
+#welcome {
+	color: white;
+    padding-right: 15px;
+    padding-left: 15px;
+    justify-content: center;
+	align-items: center;
+
+	margin-top: -3vh;
+}
+
+.na{
+	font-size: 13px;
+    border-radius: 20px;
+    padding: 12px 20px;
+    background-color: #f55858;
+    color: #fff;
+}
+.hs{
+	font-size: 4rem;
+	margin-bottom: 15px;
+}
+.dt{
+	color: #007bff;
+}
+.nav-link,.navbar-brand{
+    color: white!important;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+	padding: 0;
+	color: orange;
+ }
+ .navbar-toggler .icon-bar {
+    background-color: #90acc815;
+}
+ iframe{
+	 max-width: 100%;
+ }
+.media img{
+	padding-right: 15px;
+}
+p{
+	color: #4a4a4a;
+	padding: 0 0 10px;
+}
+.media-body h4{
+	font-size: 21px;
+	font-weight: 600;
+	margin: 0 0  20px;
+}
+.con{
+	padding: 120px 0;
+}
+#carouselExampleIndicators{
+   background-color: #00b4c6;
+   width: 50%;
+}
+.faqh{
+	font-size: 48px;
+}
+.main-button{
+	font-size: 13px;
+    border-radius: 20px;
+    padding: 12px 20px;
+    background-color: #00b4c6;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.25px;
+}
+.lh{
+	font-size: 26px;
+    font-weight: 700;
+    color: #1e1e1e;
+    line-height: 40px;
+    margin-bottom: 25px;
+    letter-spacing: 0.5px;
+}
+.faq{
+	padding: 120px 0;
+}
+.frmp{
+	text-align: center;
+	background-color: rgba(0, 136, 232, 1);
+}
+.fm{
+	padding: 20% 10%;
+	align-items: center;
+}
+/* .in{
+	background-color: #00b4c6;
+	color: white;
+} */
+.slick-slider{
+	padding: 70px 0;
+	text-align: center;
+}
+.main-button2{
+	font-size: 13px;
+    border-radius: 20px;
+	margin-top: 15px;
+    padding: 12px 20px;
+    background-color: #f55858;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.25px;
+}
+.hei{
+	max-height: 600px;
+}
+footer{
+	padding: 60px 0;
+	
+}
+.footer{
+	margin-left: 30%;
+}
+.footer ul{
+	list-style: none;
+	display: inline;
+	text-align: right;
+}
+
+i{
+	background-color: #00b4c6;
+	color: white;
+	font-size: 19px;
+	border-radius: 8px;
+	padding: 8px 12px;
+}
+.imgsli{
+	padding: 5%;
+	background-color: #00b4c6;
+	border-radius: 50%;
+	max-width: 35%;
+	margin: 22px;
+}
+.imgsli img{
+	padding: 20%;
+}
